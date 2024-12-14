@@ -1,0 +1,150 @@
+.young-serif-regular {
+	font-family: 'Young Serif', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-normal {
+	font-family: 'Outfit', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.outfit-stronger {
+	font-family: 'Outfit', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+.outfit-strongest {
+	font-family: 'Outfit', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(30, 54%, 90%);
+	padding: 20px 0;
+
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff !important;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	width: 40%;
+	height: 75%;
+	color: black;
+	border: none;
+	border-radius: 6%/3%;
+}
+.card-content {
+	justify-content: center;
+	object-fit: cover;
+	gap: 20px;
+	padding: 20px;
+	width: 100%;
+	height: 75%;
+	color: black;
+}
+
+.card-image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 3%/6%;
+}
+
+.card-content h1 {
+	font-family: 'Young Serif', serif;
+	font-size: 2.5em;
+	font-weight: 800;
+}
+
+.card-content h5 {
+	font-family: 'Young Serif', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: hsl(14, 45%, 36%);
+}
+
+.card-content table {
+	width: 100%;
+}
+.card-content strong {
+	font-family: 'Outfit', sans-serif;
+
+	font-weight: 800;
+	color: hsl(14, 45%, 36%);
+}
+
+.prep-container {
+	object-fit: cover;
+
+	border-radius: 3%/8%;
+	background-color: hsl(330, 100%, 98%) !important;
+}
+
+.prep-content {
+	padding: 1em 2em;
+}
+
+.prep-container h5 {
+	font-family: 'Outfit', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: hsl(332, 51%, 32%);
+	padding: 0;
+	margin: 0;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+	.container {
+		display: flex;
+		padding: 0;
+		background-color: #fff;
+
+		width: 100%;
+	}
+	.card {
+		display: flex;
+		flex-wrap: wrap;
+
+		justify-content: center;
+		width: 100%;
+
+		color: black;
+	}
+	.card-content {
+		justify-content: center;
+		object-fit: cover;
+
+		color: black;
+	}
+}
